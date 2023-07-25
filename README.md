@@ -1,2 +1,3 @@
-# tarea_cursogit
-Tarea del curso git
+# TRABAJO PRÁCTICO: CURSO GIT ESSENTIALS
+## Práctico Segundo
+> Ocaña Jeremias; Sabio Santiago
