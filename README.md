@@ -1,3 +1,2 @@
 # tarea_cursogit
-Tarea
-del curso git
+Tarea del curso git
