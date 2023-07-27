@@ -30,20 +30,29 @@ n = 20
 area = 0
 dx = (ff - fi) / n  # Base de los recángulos
 
+print("Función a):")
+print("Intervalos:", fi, "->", ff)
+print("N° de rectángulos: ", n, ", de base", dx)
+
 for i in range(n):
     # base_i = fi + dx*i
-    altura_i = f(((fi + dx*i) + (fi + dx*(i + 1)))/2)
+    altura_i = f(((fi + dx * i) + (fi + dx * (i + 1))) / 2)
     area_i = altura_i * dx
     area += area_i
 print("El área de f(x) por punto medio es:", area)
+print("")
 
 # g(x): Cálculo de área (punto medio)
 area = 0
 dx = (gf - gi) / n  # Base de los recángulos
 
+print("Función b):")
+print("Intervalos:", gi, "->", gf)
+print("N° de rectángulos:", n, ", de base", dx)
+
 for i in range(n):
     # base_i = fi + dx*i
-    altura_i = g(((gi + dx*i) + (gi + dx*(i + 1)))/2)
+    altura_i = g(((gi + dx * i) + (gi + dx * (i + 1))) / 2)
     area_i = altura_i * dx
     area += area_i
 print("El área de g(x) por punto medio es:", area)
